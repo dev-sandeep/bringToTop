@@ -1,0 +1,26 @@
+/* all the styles gores here */
+#draggable-container
+{
+    width: 100%;
+    min-height: 300px;
+    background: #f9f9f9;
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.drag-container
+{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 10px;
+    box-shadow: 2px 2px 2px gray;
+    background: #fff;
+}
+
+.drag-container h1
+{
+    text-align: center;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>BringToTop Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<body>
+
+<header id="header" class="header">
+    <div class="text-center text-danger">
+        <h4>Bring-To-Top Demo</h4>
+        <hr/>
+    </div>
+</header><!-- /header -->
+
+<section id="main-body">
+    
+    <div class="container">
+        <div class="col-lg-12">
+            <!-- action btns -->
+            <button class="btn btn-sm btn-success add-btn">ADD NEW</button>
+        </div>
+    </div>
+</section>
+
+<section id="appendable-div">
+    <div class="container">
+        <div class="row">
+            <div id="draggable-container">
+                <!-- all the containers would be appended here -->
+            </div>
+        </div>
+
+        <a href="https://github.com/dev-sandeep/bringToTop">@author</a> - <a href="http://www.sandeepg.co.in" target="_blank">Sandeep Gantait / 20160801</a>
+    </div>
+
+    <!-- demo container goes here -->
+    <div class="demo-div" style="display:none">
+        <div class="ui-widget-content drag-container">
+            <p>Drag me around</p>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script  src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/dragToFront.js"></script>
+</body>
+</html>
+
+
